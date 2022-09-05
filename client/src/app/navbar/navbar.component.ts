@@ -17,7 +17,7 @@ export class NavbarComponent implements OnInit {
   currentUser$: Observable<User>;
 
 
-  constructor(private accountService : AccountService) { }
+  constructor(private accountService : AccountService) {}
 
   ngOnInit(): void {
     //Excecuted when the component is created
